@@ -24,7 +24,7 @@ const Cast = () => {
             ) : (
               <img
                 width={100}
-                src="/src/images/no-image-icon.png"
+                src="https://fakeimg.pl/200x300?text=No%20Photo"
                 alt={actor.name}
               />
             )}
@@ -38,3 +38,6 @@ const Cast = () => {
 };
 
 export default Cast;
+
+
+
